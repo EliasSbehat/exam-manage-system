@@ -1,4 +1,4 @@
-# Job Application Management Software
+# Job Management Software
 
 Job applicants can apply for certain job posts through a descriptive application form. In form, applicant can provide his/her personal and educational information in detail with payments. After submitting the form successfully, applicant get a personal user dashboard panel where he/she get all information related with the process. Administrator of the entire software system also get a dashboard where he can create job form, manage user and application form informations, verify payments manually and so on.
 
@@ -7,7 +7,7 @@ Job applicants can apply for certain job posts through a descriptive application
 -   PHP 7.4 ^
 -   Composer
 -   MySQL
--   Node JS
+-   Node.js
 
 ### **Installation**
 
