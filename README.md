@@ -4,7 +4,7 @@ Job applicants can apply for certain job posts through a descriptive application
 
 ### **Prerequisites**
 
--   PHP 7.4+
+-   PHP 7.4 ^
 -   Composer
 -   MySQL
 -   Node JS
