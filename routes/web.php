@@ -12,11 +12,9 @@ use App\Http\Controllers\ApplicationFormController;
 // Welcome page
 Route::get('/', [GuestPagesController::class, 'welcome'])->name('welcome');
 
-
 // Show job application form and register user after submitting it, upload photo & signature.
 Route::get('/application-form', [ApplicationFormController::class, 'create'])->name('application_form.index');
 Route::post('/application-form', [ApplicationFormController::class, 'store'])->name('application_form.store');
-
 
 // Login, Logout, Forget, etc Default UI Functionalities
 Auth::routes();
